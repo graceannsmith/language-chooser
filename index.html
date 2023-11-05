@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link href="CSS/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/scripts.js"></script>
 </head>
 
 <body>
 
-  Include a form with a minimum of 5 survey questions.
-  Offer a minimum of 3 different language suggestions.
-  One branch should return one result. It shouldn't be possible to be suggested two languages at once.
+
   Make sure that when the user submits the survey again (for a second or third time), that previous answers are hidden,
   cleared, or replaced prior to showing the new result.
   Don't forget regular Git commits and a detailed README. Commit messages should always be on-topic and professional in
@@ -25,7 +25,7 @@
     there can be an overwhelming amount of advice! Let me help find out
     where to start with this simple survey! </h3>
   <div class="bigForm">
-    <form>
+    <form class="form1">
       <p>What is your puzzle of choice?</p>
       <input type="radio" id="sudoku" name="firstQuestion" value="SUDOKU">
       <label for="sudoku">Sudoku</label><br>
@@ -37,7 +37,7 @@
       <label for="wordsearch">Word Search</label>
     </form>
 
-    <form>
+    <form class="form2">
       <p>What is your preferred Climate?</p>
       <input type="radio" id="temperate" name="secondQuestion" value="TEMPERATE">
       <label for="temperate">Temperate</label><br>
@@ -49,7 +49,7 @@
       <label for="polar">Polar</label>
     </form>
 
-    <form>
+    <form class="form3">
       <p>What is your preferred Romance language?</p>
       <input type="radio" id="french" name="thirdQuestion" value="FRENCH">
       <label for="french">French</label><br>
@@ -61,7 +61,7 @@
       <label for="portuguese">Portuguese</label>
     </form>
 
-    <form>
+    <form class="form4">
       <p>What is your preferred mode of transportation?</p>
       <input type="radio" id="walking" name="fourthQuestion" value="WALKING">
       <label for="walking">Walking</label><br>
@@ -73,7 +73,7 @@
       <label for="car">Car</label>
     </form>
 
-    <form>
+    <form class="form5">
       <p>WHich super power would you prefer?</p>
       <input type="radio" id="flight" name="fifthQuestion" value="FLIGHT">
       <label for="flight">Flight</label><br>
