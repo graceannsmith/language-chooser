@@ -7,7 +7,7 @@ function findLanguage(answer) {
   } else if (answer === "CROSSWORD") {
     result = "You should learn C#!";
   } else {
-    result = "You should learn python]!";
+    result = "You should learn Python!";
   }
   return result;
 }
@@ -17,14 +17,16 @@ function findLanguage(answer) {
 //User
 window.onload = function () {
   let form = document.querySelector("form");
+  let output = document.querySelector("h2#output");
 
-  //let selected = document.querySelector("input:checked").value;
 
 
   form.onsubmit = function (event) {
     let selected = document.querySelector("input:checked").value;
 
     findLanguage(selected);
+
+    form.reset();
     document.querySelector("h2").innerText = result;
     event.preventDefault();
   }
