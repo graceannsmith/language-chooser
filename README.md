@@ -3,7 +3,7 @@
 
 #### By **Graceann Smith**
 
-#### A quiestionnaire to help prospective students choose which computer programming language to learn first.
+#### A questionnaire to help prospective students choose which computer programming language to learn first.
 
 ## Technologies Used
 

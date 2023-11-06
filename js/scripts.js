@@ -17,7 +17,7 @@ function findLanguage(answer) {
 //User
 window.onload = function () {
   let form = document.querySelector("form");
-  let output = document.querySelector("h2#output");
+
 
 
 
