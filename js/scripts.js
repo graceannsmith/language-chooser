@@ -19,5 +19,5 @@ window.onload = function () {
     form.reset();
     document.querySelector("h2").innerText = resultText;
     event.preventDefault();
-  }
+  };
 };
