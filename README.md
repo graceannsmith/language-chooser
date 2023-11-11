@@ -14,10 +14,8 @@
 
 ## GitHub Page Links
 
-[Portfolio Github Page] 
+[Language-Chooser Github Page] 
 (https://github.com/graceannsmith/language-chooser.git)
-[Portfolio Page] 
-(https://graceannsmith.github.io/language-chooser)
 
 ## Setup/Installation Requirements
 
