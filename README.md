@@ -11,7 +11,6 @@
 * CSS
 * JavaScript
 
-
 ## GitHub Page Links
 
 [Language-Chooser Github Page] 
@@ -20,15 +19,17 @@
 ## Setup/Installation Requirements
 
 * Open in any browser by clicking in link
+*To clone please go to https://github.com/graceannsmith/language-chooser.git
+*Highest directory in repository is language-chooser
 
-
-
+## Description
+The idea of this project is intended to allow the user to pick a computer programming language to start out learning.
+The real purpose is to give me, the maker the chance to create a submittable form using HTML, CSS and JavaScript. It is also intended to provide me with an opportunity to utilize newly gained skill of the user interface aspect of JavaScript.
 
 ## Known Bugs
 
-* As of yet no known bugs
+* Only the first question in the survey changes the result from the default of suggesting the user should learn JavaScript
   
-
 ## License
 
 MIT License
